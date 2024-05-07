@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        html, body {  
+            margin: 0;  /* 消除任何可能的边距或填充，确保container能够填满整个页面 */  
+            padding: 0;  
+            height: 100%; /* 让body的高度与视口高度相同 */  
+        } 
+        .background{
+            background-image: url("img/interface.JPG");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            width:100%; 
+            
+        }
+        .history_logon{
+            position: absolute;
+            top: 204px;
+            left: 624px;
+            width: 101px;
+            height: 525px;
+        }
+        .map_logon{
+            position: absolute;
+            top: 90px;
+            left: 455px;
+            width: 100px;
+            height: 528px;
+        }
+        .calendar_logon{
+            position: absolute;
+            top: 100px;
+            left: 772px;
+            width: 101px;
+            height: 525px;
+        }
+        .myth_logon{
+            position: absolute;
+            top: 146px;
+            left: 922px;
+            width: 100px;
+            height: 525px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="background">
+        <a href="DaYu.html"><img src="img/历史标签.png" class="history_logon"></a>
+        <a href="myth.html"><img src="img/神话标签.png" class="myth_logon"></a>
+        <a href="map.html"><img src="img/地图标签.png" class="map_logon"></a>
+        <a href="calendar.html"><img src="img/历法标签.png" class="calendar_logon"></a>
+    </div>
+</body>
+</html>
